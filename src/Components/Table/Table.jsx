@@ -13,12 +13,12 @@ function createData(order, trackingID, date, status) {
 }
 
 const rows = [
-    createData("Crispy Chicken", 37202212491094, "3 July 2022", "Approved"),
-    createData("Shish Tawook ", 37202212511182, "3 July 2022", "Pending"),
-    createData("Chicken Steak", 37202210011277, "3 July 2022", "Delivered"),
-    createData("Mushroom Pizza", 37202210101336, "3 July 2022", "Approved"),
-    createData("Nutella Chocolate ", 37202210151487, "3 July 2022", "Approved"),
-    createData("Minced Meat", 37202210181501, "3 July 2022", "Delivered"),
+    createData("IPhone 13 Pro", 37202212491094, "3 July 2022", "Approved"),
+    createData("Xiaomi Smart Watch", 37202212511182, "3 July 2022", "Pending"),
+    createData("Samsung S20", 37202210011277, "3 July 2022", "Delivered"),
+    createData("OPPO Reno 6 5G ", 37202210101336, "3 July 2022", "Approved"),
+    createData("Amazfit Neo Sports Watch", 37202210151487, "3 July 2022", "Approved"),
+    createData("Xiaomi Redmi Note 11", 37202210181501, "3 July 2022", "Delivered"),
 ];
 
 
