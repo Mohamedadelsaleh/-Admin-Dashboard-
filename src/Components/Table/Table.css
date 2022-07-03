@@ -2,20 +2,29 @@
     padding: 10px;
 }
 
+
 .MuiTableRow-root.MuiTableRow-head > * {
     font-weight: bold !important;
 }
 
+.Table > div {
+    border-radius: 20px;
+    background:#eee;
+
+}
+
 .Table td, th {
     border: none !important;
+    font-weight: 700 !important;
 }
 
 .Table:first-child {
     border-radius: 0.7rem !important;
+;
 }
 
 .status {
-    padding: 8px;
+    padding: 5px;
     border-radius: 9px;
 }
 
@@ -38,6 +47,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 23rem;
+        width: 18rem;
     }
 }
+
+
+/* background:linear-gradient(106.37deg, #265df4cb   20.63%, #6da5f9 40.55%, #4727e8 99.85%); */

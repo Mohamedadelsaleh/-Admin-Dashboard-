@@ -12,6 +12,11 @@ import {
 
 } from '@iconscout/react-unicons'
 
+//Images
+
+import img1 from '../Assets/1.jpg';
+import img2 from '../Assets/2.jpg';
+import img3 from '../Assets/3.jpg'
 
 export const SidebarData = [
     {
@@ -45,7 +50,7 @@ export const CardData = [
     {
         title: 'Sales',
         color:{
-            backGround:'linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)',
+            backGround:'linear-gradient(180deg, #4057ff 0%, #ff2ce9 100%)',
             boxShadow: '0px 10px 20px 0px #e0c6f5',
         },
         barValue: 70,
@@ -62,7 +67,7 @@ export const CardData = [
     {
         title: 'Revenue',
         color:{
-            backGround:'linear-gradient(180deg, #FF919D 0%, #FC929D 100%)',
+            backGround:'linear-gradient(180deg, #4057ff 0%, #21c306 100%)',
             boxShadow: '0px 10px 20px 0px #FDC0C7',
         },
         barValue: 80,
@@ -80,7 +85,7 @@ export const CardData = [
     {
         title: 'Expenses',
         color:{
-            backGround:'linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)',
+            backGround:'linear-gradient(180deg, #FF919D 0%, #FC929D 100%)',
             boxShadow: '0px 10px 20px 0px #F9D59B',
         },
         barValue: 61,
@@ -94,3 +99,25 @@ export const CardData = [
         ],
     },
 ]
+
+
+export const UpdatesData = [
+    {
+        img: img1,
+        name: "Mina Kamel",
+        noti: "has ordered Apple smart watch 2500mh battery.",
+        time: "25 seconds ago",
+    },
+    {
+        img: img3,
+        name: "Ahmed ElSayed",
+        noti: "has received Samsung gadget for charging battery.",
+        time: "30 minutes ago",
+    },
+    {
+        img: img2,
+        name: "Abanoub Kamel",
+        noti: "has ordered Apple smart watch, samsung Gear 2500mh battery.",
+        time: "2 hours ago",
+    },
+];

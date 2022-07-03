@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import MainDashboard from './Components/Dashboard/MainDashboard';
+import RightSide from './Components/RightSide/RightSide';
 import Sidebar from './Components/SideBar/Sidebar';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <div className="AppGlass">
         <Sidebar />
         <MainDashboard />
+        <RightSide />
       </div>
     </div>
   );

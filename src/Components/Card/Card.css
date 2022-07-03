@@ -77,15 +77,15 @@
 
 .ExpandedCard{
     position: absolute;
-    width: 60%;
-    height: 70vh;
+    width: 61.5%;
+    height: 77vh;
     z-index: 9;
     left: 13rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .ExpandedCard > span:nth-of-type(2) {
-    color: rgb(236, 236, 236);
+    color: rgb(223, 222, 222);
     font-size: 15px;
 }
 
@@ -108,7 +108,7 @@
 @media screen and (max-width: 1200px) {
     .ExpandedCard {
         top: 2rem;
-        height: 45vh;
+        height: 70vh;
         left: 6rem;
     }
 }
@@ -117,7 +117,7 @@
     .ExpandedCard {
         top: 8rem;
         height: 50%;
-        left: 25px;
+        left: 15px;
         width: 80%;
     }
 }
