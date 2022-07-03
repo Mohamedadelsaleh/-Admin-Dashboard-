@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Admin-Dashboard/static/css/main.83e7525a.css",
+    "main.js": "/Admin-Dashboard/static/js/main.58828013.js",
+    "static/media/1.jpg": "/Admin-Dashboard/static/media/1.3d53f745d61729ec8010.jpg",
+    "static/media/2.jpg": "/Admin-Dashboard/static/media/2.56f2d6ca862ea5378820.jpg",
+    "static/media/3.jpg": "/Admin-Dashboard/static/media/3.489d2a589e5742cc7e5a.jpg",
+    "static/media/OneWeb_Logo.png": "/Admin-Dashboard/static/media/OneWeb_Logo.9c501a0063bb525710f7.png",
+    "index.html": "/Admin-Dashboard/index.html",
+    "main.83e7525a.css.map": "/Admin-Dashboard/static/css/main.83e7525a.css.map",
+    "main.58828013.js.map": "/Admin-Dashboard/static/js/main.58828013.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83e7525a.css",
+    "static/js/main.58828013.js"
+  ]
+}
